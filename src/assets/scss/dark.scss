@@ -1,0 +1,267 @@
+.dark, .darkModal, .darkOverlay {
+  background-color: $darkBg;
+  color: $darkTxt;
+  .side-menu {
+    background-color: $darkBg2;
+  }
+  .header {
+    background-color: $darkBg2;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: rgba(255, 255, 255, 0.9)
+  }
+  .ant-card {
+    background-color: $darkBg2;
+    color: $darkTxt;
+    .ant-card-head {
+      color: $darkTxt;
+      border-bottom: none;
+    }
+
+    .ant-card-actions {
+      background: none;
+      border-top: none;
+    }
+  }
+  .ant-select-selector {
+    background-color: $darkBg3!important;
+  }
+  .createBlock {
+    background-color: $darkBg2;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .ant-picker-calendar, .ant-picker-calendar-full .ant-picker-panel {
+    background-color: $darkBg2;
+  }
+  .ant-picker-cell-selected .ant-picker-calendar-date, .ant-picker-cell:hover:not(.ant-picker-cell-in-view) .ant-picker-cell-inner,
+  .ant-picker-cell:hover:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(.ant-picker-cell-range-hover-end) .ant-picker-cell-inner,
+  .ant-input {
+    background-color: $darkBg3!important;
+  }
+  .ant-input-group-addon {
+    border: none !important;
+    color: white;
+  }
+  .ant-picker-calendar-date {
+    border-top: 1px solid rgba(0,0,0,0.4)!important;
+  }
+  .ant-picker-cell {
+    opacity: 0.4!important;
+  }
+  .ant-picker-cell-in-view {
+    opacity: 1!important;
+  }
+  .ant-badge-status {
+    color: #fff;
+  }
+  .ant-picker-calendar-date-today .ant-picker-calendar-date-value {
+    color: $primary!important;
+  }
+  .ant-select-arrow {
+    color: $darkTxt
+  }
+  .ant-select-dropdown {
+    background-color: $darkBg3;
+    .ant-select-item-option-selected, .ant-select-item-option:hover, .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+      background-color: $darkBg;
+    }
+    .ant-select-item-option-content {
+      color: #fff;
+    }
+  }
+  .chatContainer {
+    background-color: $darkBg2;
+    .loadingWrapper {
+      background-color: $darkBg2;
+    }
+  }
+  .imgContainer {
+    background-color: $darkBg3;
+  }
+  .boardContainer {
+    .column {
+      background-color: $darkBg2;
+      .card {
+        background-color: $darkBg3;
+        border-color: $darkBg2;
+      }
+    }
+    .addTask.inputContainer {
+      background-color: $darkBg2;
+    }
+  }
+  .ant-select-selector, .statistics b, .projectCard .name, .ant-badge-status-text, .ant-picker-calendar-date, .ant-picker-panel th, .ant-input {
+    color: $darkTxt!important;
+  }
+  .ant-modal-close-x {
+    color: #fff;
+  }
+  .ant-input, .ant-select-selector, .taskCard .card {
+    background-color: $darkBg3!important;
+    border: 1px solid $darkBg2!important;
+  }
+  .ant-btn-primary[disabled] {
+    background-color: $primary;
+    border: none;
+    color: $darkTxt;
+    opacity: 0.5;
+  }
+  .ant-upload.ant-upload-select-picture-card {
+    background-color: $darkBg3;
+    border-color: $darkTxt;
+  }
+  .ant-avatar, .notif {
+    background-color: $darkBg3!important;
+    color: $darkTxt;
+    border-color: $darkBg2;
+  }
+  .ant-avatar {
+    background-color: $darkBg2!important;
+    border-color: $darkBg3;
+    color: $darkTxt;
+  }
+  &.taskModal {
+    .ant-modal-content, .ant-modal-header {
+      background-color: $darkBg;
+    }
+    .info > div {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .actionList {
+      .item {
+        background-color: rgba(164, 191, 238, 0.08);
+        color: #a4bfee;
+        opacity: 0.9;
+        padding: 5px 10px;
+      }
+    }
+    .title {
+      i {
+        color: rgba(255, 255, 255, 0.9);
+      }
+    }
+    .itemBtn {
+      background: $darkBg3;
+      color: $darkTxt;
+      border-color: $darkBg2;
+    }
+    .comments {
+      .inputFooter, .content {
+        background-color: $darkBg3;
+      }
+    }
+  }
+  .comments {
+    .commentItem .content {
+      border-color: $darkBg2!important;
+    }
+  }
+  .ant-popover-inner {
+    background-color: $darkBg3;
+    .item {
+      color: $darkTxt;
+      border-bottom-color: $darkBg2;
+    }
+  }
+  .ant-popover-arrow-content:before {
+    background-color: $darkBg3;
+  }
+  .memberOption {
+    border-bottom-color: $darkBorder;
+    color: $darkTxt;
+  }
+  .ant-popover-title {
+    color: $darkTxt;
+    border-color: $darkBorder;
+  }
+  .ant-popover-arrow-content {
+    background-color: $darkBg3;
+  }
+  .attachmentItem .thumbnail {
+    background-color: $darkBg3;
+    color: $darkTxt;
+    border-color: rgba(255,255,255,0.4)!important;
+  }
+  .chatContainer {
+    .sidebarContainer {
+      background-color: $darkBg2;
+      border-right-color: $darkBorder;
+    }
+    .head, .chatHeader, .item {
+      border-bottom-color: $darkBorder;
+    }
+    .userName {
+      color: $darkTxt;
+    }
+    .chatInput {
+      background-color: $darkBg3;
+    }
+    .messageText {
+      color: $darkTxt;
+    }
+    .ant-avatar {
+      background-color: $darkBg3!important;
+      .ant-avatar-string {
+        line-height: 37px!important;
+      }
+    }
+    .createContainer {
+      background-color: $darkBg2;
+      .userItem {
+        border-bottom-color: $darkBorder;
+      }
+    }
+  }
+  .listItem, .memberItem {
+    border-color: $darkBorder;
+  }
+  .profileHead {
+    border-bottom-color: $darkBorder;
+  }
+  .projectCard {
+    .projectImg {
+      background-color: $darkBg3;
+    }
+  }
+  .ant-tag {
+    opacity: 0.85;
+  }
+  .ant-btn {
+    span {
+      color: white;
+    }
+  }
+  .ant-list-item-meta-title {
+    color: white !important;
+    font-size: 17px !important;
+  }
+}
+
+.darkModal {
+  background: transparent;
+  .ant-modal-content, .ant-modal-header {
+    background-color: $darkBg3;
+    color: $darkTxt;
+    border-bottom-color: $darkBg2;
+  }
+  .ant-modal-title {
+    color: $darkTxt;
+  }
+  &.archivedTasksModal {
+    .ant-modal-content, .ant-modal-header {
+      background-color: $darkBg2;
+    }
+  }
+  .taskTitleInput {
+    background-color: transparent!important;
+  }
+}
+
+.darkOverlay {
+  background-color: transparent;
+  .ant-popover-inner-content {
+    color: $darkTxt;
+  }
+}

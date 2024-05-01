@@ -1,0 +1,15 @@
+export const LOGIN = 'LOGIN_USER';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const SET_MODE = 'SET_MODE';
+export const LOGOUT = 'LOGOUT';
+export const GET_BALANCE = 'GET_BALANCE';
+export const GET_BALANCE_SUCCESS = 'GET_BALANCE_SUCCESS';
+export const BUY_CHIP = 'BUY_CHIP';
+export const WITHDRAW_CHIP = 'WITHDRAW_CHIP';
+export const BUY_CHIP_SUCCESS = 'BUY_CHIP_SUCCESS';
+export const WITHDRAW_CHIP_SUCCESS = 'WITHDRAW_CHIP_SUCCESS';
+export const GET_PLAYERS = "GET_PLAYERS";
+export const GET_PLAYERS_SUCCESS = 'GET_PLAYERS_SUCCESS';
+export const TRANSFER_CHIP = "TRANSFER_CHIP";
+export const TRANSFER_CHIP_SUCCESS = "TRANSFER_CHIP_SUCCESS";

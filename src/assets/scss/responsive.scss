@@ -1,0 +1,113 @@
+@media screen and (max-width: 991px) {
+	.side-menu {
+		width: 80px;
+		text-align: center;
+		overflow: hidden;
+		padding: 0;
+		.menu-item {
+			justify-content: center;
+			span {
+				display: none;
+			}
+		}
+		.logoContainer {
+			justify-content: center;
+			padding-top: 20px;
+			.logo {
+				margin-right: 0;
+			}
+		}
+		.logoTxt {
+			display: none;
+		}
+		.projectDropdownContainer {
+			display: none;
+		}
+	}
+	.menu-space {
+		width: 80px;
+	}
+	.dashboard .statistics div {
+		font-size: 12px;
+	}
+	.plans {
+		.plans__cta {
+			flex-direction: column;
+			gap: 30px;
+			padding: 0;
+			width: auto;
+			.plans__cta__column {
+				width: 350px;
+				.button {
+					margin: 0;
+					width: 100%;
+					height: 50px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.loginContainer {
+		.right {
+			display: none !important;
+		}
+		.left {
+			width: 90% !important;
+		}
+		.logo {
+			left: 15px !important;
+		}
+	}
+	.dashboard {
+		.ant-card {
+			margin-bottom: 20px;
+		}
+		.statistics div {
+			font-size: 15px;
+		}
+	}
+	.header-right {
+		.ant-select {
+			display: none;
+		}
+	}
+	.ant-card {
+		margin-bottom: 15px;
+	}
+	.menu-space {
+		width: 60px !important;
+	}
+	.side-menu {
+		width: 60px !important;
+		.logo {
+			width: 35px;
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.taskModal {
+		.actionList {
+			margin-top: 35px;
+		}
+		.todo .item .delete {
+			right: 0 !important;
+		}
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.projectHeading {
+		display: block;
+		.memberAvatarList {
+			margin-top: -25px;
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.w-full {
+	width: 100% !important;
+}
