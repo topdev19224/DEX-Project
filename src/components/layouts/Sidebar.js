@@ -8,17 +8,17 @@ import { toast } from "react-toastify"
 import { login } from "../../store/actions/user"
 
 const SidebarComponent = () => {
-    const navigate = useNavigate();
-    const dispatch = useDispatch();
-    const pwdRef = useRef(null);
-    const isLogin = useSelector(s => s.user.isLogin);
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+    const pwdRef = useRef(null)
+    const isLogin = useSelector(s => s.user.isLogin)
     const [loginInfo, setLoginInfo] = useState({
         player: '',
         password: ''
     })
     const onLogin = () => {
         if (loginInfo.player === '' || loginInfo.password === '') {
-            toast.warn('Please input player information'); return;
+            toast.warn('Please input player information'); return
         }
         dispatch(login(loginInfo))
     }
