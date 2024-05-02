@@ -1,11 +1,11 @@
-import React, { useState, useRef } from "react";
-import { useNavigate } from "react-router-dom";
-import { Row, Input, Button } from "antd";
-import SidebarLogo from "../../assets/images/logo.png";
-import Walletpng from "../../assets/images/wallet.png";
-import { useSelector, useDispatch } from 'react-redux';
-import { toast } from "react-toastify";
-import { login } from "../../store/actions/user";
+import React, { useState, useRef } from "react"
+import { useNavigate } from "react-router-dom"
+import { Row, Input, Button } from "antd"
+import SidebarLogo from "../../assets/images/logo.png"
+import Walletpng from "../../assets/images/wallet.png"
+import { useSelector, useDispatch } from 'react-redux'
+import { toast } from "react-toastify"
+import { login } from "../../store/actions/user"
 
 const SidebarComponent = () => {
     const navigate = useNavigate();
