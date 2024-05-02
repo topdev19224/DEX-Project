@@ -58,4 +58,4 @@ const SidebarComponent = () => {
     )
 }
 
-export default SidebarComponent;
+export default SidebarComponent
