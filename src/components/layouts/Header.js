@@ -43,12 +43,7 @@ const Header = () => {
                                         <div className="ellipsis">Logout</div>
                                     </Row>
                                 </div>
-                                {/* <div className="item">
-                                    <Row align="middle">
-                                        <div className="ellipsis">Dark Mode</div>
-                                        <Switch defaultChecked={darkMode} onChange={(val) => dispatch(setMode(val ? "dark" : "light"))} />
-                                    </Row>
-                                </div> */}
+                            
                             </div>
                         </div>
                     }
