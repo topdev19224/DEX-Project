@@ -11,12 +11,12 @@ const Header = () => {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const darkMode = useSelector((s) => s.user.mode === "dark")
-    const user = useSelector((s) => s.user.user.data);
-    const isLogin = useSelector((s) => s.user.isLogin);
+    const user = useSelector((s) => s.user.user.data)
+    const isLogin = useSelector((s) => s.user.isLogin)
     const logoutFunc = React.useCallback(() => {
-        dispatch(logout());
-        axios.setToken("");
-        localStorage.removeItem("token");
+        dispatch(logout())
+        axios.setToken("")
+        localStorage.removeItem("token")
         navigate("/");
     }, [dispatch, navigate]);
     return (
