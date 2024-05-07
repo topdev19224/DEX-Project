@@ -4,13 +4,13 @@ import defaultAvatar from '../../assets/images/avatar0.jpg'
 import playBtn from '../../assets/images/play.png'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from "react-redux"
-import { logout, setMode } from '../../store/actions/user';
-import axios from '../../utils/axios';
+import { logout, setMode } from '../../store/actions/user'
+import axios from '../../utils/axios'
 
 const Header = () => {
-    const navigate = useNavigate();
-    const dispatch = useDispatch();
-    const darkMode = useSelector((s) => s.user.mode === "dark");
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+    const darkMode = useSelector((s) => s.user.mode === "dark")
     const user = useSelector((s) => s.user.user.data);
     const isLogin = useSelector((s) => s.user.isLogin);
     const logoutFunc = React.useCallback(() => {
