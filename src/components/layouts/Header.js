@@ -18,7 +18,7 @@ const Header = () => {
         axios.setToken("")
         localStorage.removeItem("token")
         navigate("/");
-    }, [dispatch, navigate]);
+    }, [dispatch, navigate])
     return (
         <div className='header'>
             {isLogin ? <div style={{fontSize: 25, fontWeight: 700, paddingLeft: 20}}>Welcome back!</div> : <div style={{fontSize: 25, fontWeight: 700, paddingLeft: 20}}>Welcome to Tiltedstacks</div>}
