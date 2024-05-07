@@ -37,11 +37,7 @@ const Header = () => {
                                         {user?.RealName}
                                     </div>
                                 </div>
-                                {/* <div onClick={() => navigate("/dashboard/settings")} className="item">
-                                    <Row align="middle">
-                                        <div className="ellipsis">Profile Settings</div>
-                                    </Row>
-                                </div> */}
+                              
                                 <div onClick={logoutFunc} className="item">
                                     <Row align="middle">
                                         <div className="ellipsis">Logout</div>
