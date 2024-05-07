@@ -1,6 +1,6 @@
-import React from 'react';
-import { Avatar, Popover, Row, Switch } from 'antd';
-import defaultAvatar from '../../assets/images/avatar0.jpg';
+import React from 'react'
+import { Avatar, Popover, Row, Switch } from 'antd'
+import defaultAvatar from '../../assets/images/avatar0.jpg'
 import playBtn from '../../assets/images/play.png';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
